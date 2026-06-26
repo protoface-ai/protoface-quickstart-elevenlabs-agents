@@ -49,6 +49,12 @@ The app starts an ElevenLabs conversation and a Protoface avatar session side by
 
 Protoface is the visible and audible avatar output for the experience.
 
+## Characters
+
+You can swap out the character by finding one that you like in the [Protoface avatar docs](https://docs.protoface.com/guides/avatars?utm_source=github&utm_medium=referral&utm_campaign=github_docs&utm_content=protoface-quickstart-vapi), or create your own.
+
+`av_stock_001` `av_stock_002` `av_stock_003` `custom_avatar_id`
+
 ## Deploy on Vercel
 
 Deploy with the Vercel Platform and set the same environment variables in Project Settings.
