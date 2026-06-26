@@ -1,6 +1,6 @@
-# Create Protoface App (ElevenLabs Conversational AI)
+# Protoface Quickstart for Eleven Labs Conversational AI
 
-This starter adds a realtime Protoface avatar to an ElevenLabs Conversational AI agent in a Next.js app.
+This quickstart is an example of how to create a Protoface Avatar that runs in a Next.js app with the Protoface Node plugin and Eleven Labs Conversational AI. 
 
 ## About Protoface
 
@@ -14,7 +14,7 @@ To see quickstarts for other platforms, visit the [quickstart repo](https://gith
 
 ## Usage
 
-1. Rename `.env.example` to `.env` and paste your Protoface, LiveKit, and ElevenLabs agent values.
+1. Rename `.env.example` to `.env` and paste your Protoface API key, your LiveKit secrets, and your ElevenLabs API key and agent id.
 
 ```js
 PROTOFACE_API_KEY="PROTOFACE-API-KEY"
@@ -23,7 +23,7 @@ LIVEKIT_API_KEY="LIVEKIT-API-KEY"
 LIVEKIT_API_SECRET="LIVEKIT-API-SECRET"
 
 NEXT_PUBLIC_ELEVENLABS_AGENT_ID="ELEVENLABS-AGENT-ID"
-NEXT_PUBLIC_PROTOFACE_AVATAR_ID="av_stock_001"
+NEXT_PUBLIC_PROTOFACE_AVATAR_ID="av_stock_001" // Optional (defaults to av_stock_001)
 ```
 
 2. Install packages.
@@ -36,13 +36,6 @@ npm install
 
 ```bash
 npm run dev
-```
-
-4. Set the ElevenLabs agent ID in `.env`. `NEXT_PUBLIC_PROTOFACE_AVATAR_ID` is optional and defaults to `av_stock_001`.
-
-```js
-NEXT_PUBLIC_ELEVENLABS_AGENT_ID="ELEVENLABS-AGENT-ID"
-NEXT_PUBLIC_PROTOFACE_AVATAR_ID="av_stock_001"
 ```
 
 ## How It Works
